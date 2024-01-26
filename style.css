@@ -119,7 +119,7 @@ img{
 /* --------------- navBar end ----------------- */
 
 .container{
-    padding: 20px 6%;
+    padding: 20px 13%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -127,9 +127,41 @@ img{
 
 /* --------------- left-sidebar ----------------- */
 .left-sidebar{
-    flex-basis: 25%;
+    flex-basis: 20%;
     align-self: flex-start;
 }
+
+.sidebar-profile-box{
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #dfdeda;
+}
+.sidebar-profile-box img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+    border-top: 1px solid #dfdeda ;
+}
+.sidebar-profile-info{
+    padding: 0 25px;
+}
+.sidebar-profile-info img{
+    width: 65px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 0px 4px 4px 4px;
+    margin-top: -37px;
+    margin-left: 34%;
+}
+.sidebar-profile-info h1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.sidebar-profile-info p{
+    font-size: 12px;
+}
+
+
 
 /* --------------- right-sidebar ----------------- */
 .right-sidebar{
