@@ -160,8 +160,29 @@ img{
 .sidebar-profile-info p{
     font-size: 12px;
 }
-
-
+.connections-profile-info{
+    padding: 15px 25px;
+    border-top: 1px solid #dfdeda;
+}
+.connections-profile-info h6{
+    font-size: 12px;
+    color: #5e5e5e;
+    font-weight: 500;
+}
+.connections-profile-info h6 span{
+    color: #378fe9;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.connections-profile-info img{
+    width: 12px;
+    border-radius: 0;
+    display: block;
+}
+.connections-profile-info p{
+    font-size: 12px;
+    color: #000;
+}
 
 /* --------------- right-sidebar ----------------- */
 .right-sidebar{
