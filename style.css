@@ -244,10 +244,12 @@ img{
 .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
-    background: #fff;
+}
+.right-sidebar-boxs{
     padding: 10px 0px;
     border: 1px solid #dfdeda;
     border-radius: 5px;
+    background: #ffffff;
 }
 .right-sidebar-header{
     display: flex;
@@ -269,6 +271,15 @@ img{
     font-weight: 500;
     padding: 8px 0px;
 }
+#right-sidebar-top-news{
+    display: block;
+}
+#right-sidebar-top-news:hover{
+    background: #ebebeb;
+}
+#right-sidebar-top-news:last-child:hover{
+    background: none;
+}
 .readers-sec-right-sidebar{
     display: flex;
     padding-left: 29px;
@@ -277,14 +288,98 @@ img{
 }
 #Show-more-sec-right-sidebar{
     padding: 2px;
+    margin-top: 15px;
     margin-left: 29px;
     width: 110px;
+}
+#Show-more-sec-right-sidebar:hover{
+    background: #ebebeb;
 }
 #Show-more-sec-right-sidebar img{
     width: 17px;
     text-align: center;
 }
-
+.sec-cont-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.ad-container{
+    margin-left: 220px;
+    font-size: 11px;
+    font-weight: inherit;
+    color: #000;
+}
+.ad-container span{
+    letter-spacing: -1px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sec-cont-box .ad-text{
+    font-size: 11px;
+    font-weight: initial;
+    color: #737373;
+}
+.right-sidebar-logo-pic img{
+    width: 70px;
+    padding: 6px 8px;
+}
+.right-sidebar-logo-pic img:last-child{
+    width: 80px;
+}
+.ad-sed-rext{
+    font-size: 15px;
+}
+.sec-cont-box button{
+    color: #378fe9;
+    margin: 10px;
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: 1px solid #378fe9;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-main-section{
+    flex-basis: 25%;
+    margin: 25px 25px;
+}
+.footer-main-section ul li img{
+    width: 10px;
+    margin-left: 10px;
+}
+.footer-main-section ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 18px;
+    font-size: 12px;
+}
+.footer-main-section ul li{
+    margin-bottom: 3px;
+}
+.footer-main-section ul li a:hover{
+    color: #1f7cd8;
+    text-decoration: overline;
+}
+.footer-copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer-copy-right p{
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    margin-left: 5px;
+}
 /* --------------- main-container ---------------- */
 .main-container{
     flex-basis: 47%;
