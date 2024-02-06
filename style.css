@@ -124,6 +124,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: #f4f2ee;
 }
 
 /* --------------- left-sidebar ----------------- */
@@ -382,6 +383,61 @@ img{
 }
 /* --------------- main-container ---------------- */
 .main-container{
-    flex-basis: 47%;
+    flex-basis: 52%;
     align-self: flex-start;
+}
+.post-feed-container{
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #dfdeda;
+    border-radius: 8px;
+}
+.post-feed-container input{
+    width: 37em;
+    border-radius: 23px;
+    padding: 0px;
+    border: 1px solid #bab9b3;
+    padding: 15px;
+}
+.post-feed-container img{
+    width: 44px;
+}
+.profile-pic{
+    display: flex;
+    justify-content: space-around;
+}
+.post-container-profile-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 45px 5px 45px;
+}
+.post-img{
+    display: flex;
+    align-items: center;
+}
+.post-img img{
+    width: 26px;
+    padding-right: 6px;
+}
+.post-feed-hr-line{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.post-feed-hr-line hr{
+    width: 85%;
+    margin-right: 8px;
+    color: #ccc;
+    border: 1px solid #e1ded6;
+}
+.post-feed-hr-line span{
+    color: #000;
+    margin: 0px 1px;
+}
+.post-feed-hr-line img{
+    width: 10px;
+    margin: 0 0 6px 4px;
 }
