@@ -441,3 +441,10 @@ img{
     width: 10px;
     margin: 0 0 6px 4px;
 }
+.main-post-feed-container{
+    background-color: #fff;
+}
+.main-post-header{
+    display: flex;
+    
+}
