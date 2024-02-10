@@ -447,5 +447,9 @@ img{
 .main-post-header{
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+}
+.main-post-header img {
+    border-radius: 50%;
+    width: 25px;
 }
