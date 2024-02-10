@@ -446,5 +446,6 @@ img{
 }
 .main-post-header{
     display: flex;
+    flex-direction: column;
     
 }
